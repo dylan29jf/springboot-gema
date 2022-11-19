@@ -1,1 +1,1 @@
-# -springboot-social-network
+# springboot-gema
