@@ -7,6 +7,8 @@ public class UsuarioRegistroDTO {
 	private String apellido;
 	private String email;
 	private String password;
+	private String genero;
+	private String fecha;
 
 	public Long getId() {
 		return id;
@@ -48,6 +50,21 @@ public class UsuarioRegistroDTO {
 		this.password = password;
 	}
 
+	public String getGenero() {
+		return genero;
+	}
+
+	public void setGenero(String genero) {
+		this.genero = genero;
+	}
+
+	public String getFecha() {
+		return fecha;
+	}
+
+	public void setFecha(String fecha) {
+		this.fecha = fecha;
+	}
 
 	public UsuarioRegistroDTO(String nombre, String apellido, String email, String password) {
 		super();
